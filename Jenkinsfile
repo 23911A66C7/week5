@@ -20,8 +20,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 bat '''
-                    if not exist deployments mkdir deployments
-                    copy Factorial.class D:\\Devops_Lab\\deployments\\
+                    if not exist C:\\deployments mkdir C:\\deployments
+                    copy Factorial.class C:\\deployments\\
                 '''
             }
         }
