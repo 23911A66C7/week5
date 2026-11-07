@@ -21,7 +21,7 @@ pipeline {
             steps {
                 bat '''
                     if not exist deployments mkdir deployments
-                    copy Factorial.class D:\\24911A66G1\\deployments\\
+                    copy Factorial.class D:\\Devops_Lab\\deployments\\
                 '''
             }
         }
